@@ -1,0 +1,23 @@
+      <form method="post" action="/sendforms/sendmsg" onsubmit="gtag('event', 'sendemail', { 'event_category': 'contacts', 'event_action': 'send', });return true;">
+        <div class="section">
+          <div class="width_100_percentage padding_10 padding_left_0 padding_right_0 box_sizing_border_box float_left position_relative">
+              <input class="padding_left_0 border_width_2 background_none border_top_width_0 border_right_width_0 border_left_width_0" type="text" placeholder="Name" name="name" required>
+          </div>
+          <div class="width_100_percentage padding_10 padding_left_0 padding_right_0 box_sizing_border_box float_left position_relative">
+            <input class="padding_left_0 border_width_2 background_none border_top_width_0 border_right_width_0 border_left_width_0" type="text" placeholder="Email" name="email" required>
+          </div>
+        </div>
+
+          <div class="section">
+            <div class="width_100_percentage padding_10 padding_left_0 padding_right_0 box_sizing_border_box float_left">
+              <textarea rows="6" class="padding_left_0 border_width_2 background_none border_top_width_0 border_right_width_0 border_left_width_0" placeholder="Message" name="message" required></textarea>
+            </div>
+          </div>
+          <div class="section">
+            <div class="width_100_percentage padding_10 padding_left_0 padding_right_0 box_sizing_border_box float_left">
+              <button type="submit" class="bg_white_hover color_green_hover border_2_solid_green transition_all_08_ease display_inline_block text_align_center box_sizing_border_box color_white bg_green first_font padding_10_20 border_radius_3 cursor_pointer">SUBMIT</button> <span class="color_white first_font"> &nbsp or &nbsp </span>
+              
+              <a class="line_height_18 display_inline_block color_white first_font border_1_solid_white box_sizing_border_box padding_10_20 border_radius_3 transition_all_08_ease border_1_solid_green_hover bg_green_hover font_size_13" href="tel:14133149619" onclick="gtag('event', 'call_now', { 'event_category': 'tel', 'event_action': 'click', });">CALL NOW</a>
+            </div>
+          </div>
+      </form>

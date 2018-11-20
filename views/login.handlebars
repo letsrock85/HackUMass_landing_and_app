@@ -1,0 +1,81 @@
+<div class="page">
+        <div class="page-main">
+          <!-- Only show navigation if user is logged in... -->
+
+          <div class="container">
+
+            <!-- This is where every component will load -->
+            <div class="row">
+  <div class="col col-login mx-auto">
+    <div class="text-center mb-6" style="margin-top:10%">
+  <a href="/"><img src="/assets/HUMVLogo-7adc36df9a4c421f9761b4681e5568b5a8092916764734185db0d94cd66f28c7.png" /></a>
+</div>
+    <form class="card" id="new_user" action="/login" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="T61P6Sr+ciuelqT4JMIoEEBCIJ5xfjZ2OKOLw6gIJ9IkgTf/PagzgedPCrqHae+0qmjR1OXsrtOtEStnAz5wpw==" />
+      <div class="card-body p-6">
+        <div class="card-title">Login to your account</div>
+        <div class="form-group">
+          <label class="form-label">Email address</label>
+          <input placeholder="Enter Email" autofocus="autofocus" class="form-control" type="email" value="" name="user[email]" id="user_email" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Password</label>
+          <input placeholder="Password" autocomplete="off" class="form-control" type="password" name="user[password]" id="user_password" />
+        </div>
+        <div class="form-group">
+          <label class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" />
+            <span class="custom-control-label">Remember me</span>
+          </label>
+        </div>
+        <div class="form-footer">
+          <input type="submit" name="commit" value="Sign In" class="btn btn-primary btn-block" data-disable-with="Sign In" />
+        </div>
+      </div>
+</form>    <div class="text-center text-muted">
+      
+  <a href="/signup">Don&#39;t have an account? Sign up!</a><br />
+
+  <a href="/users/password/new">Forgot your password?</a><br />
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- LEGACY CODE -->
+<!--    <div class="col-lg-6 col-lg-offset-3" style="padding-top:60px">-->
+<!--      <div class="panel panel-default">-->
+<!--        <div class="panel-body">-->
+<!--          <form class="form-horizontal">-->
+<!--            <fieldset>-->
+<!--              <center></center>-->
+<!--              <hr>-->
+<!--              <div class="form-group">-->
+<!--                <label for="inputEmail" class="col-lg-2 control-label">Email</label>-->
+<!--                <div class="col-lg-10">-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div class="form-group">-->
+<!--                <label for="inputPassword" class="col-lg-2 control-label">Password</label>-->
+<!--                <div class="col-lg-10">-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <div class="form-group">-->
+<!--                <div class="col-lg-10 col-lg-offset-2" style="padding-top: 5%;margin-bottom: 10px" >-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <br>-->
+<!--            </fieldset>-->
+<!--          </form>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+          </div>
+    </div>
+  </div>

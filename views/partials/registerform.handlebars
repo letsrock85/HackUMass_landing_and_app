@@ -1,0 +1,36 @@
+  <form method="post" data-her="her her" {{#is title "Register"}} action="/users/register"  {{/is}} {{#isnt title "Register"}} action="/users/register?her=lala2" {{/isnt}} onsubmit="gtag('event', 'sendemail', { 'event_category': 'contacts', 'event_action': 'send', });return true;">
+    {{lala2}}
+  <div class="form-group">
+    <div class="width_50_percentage width_100_percentage_all_iphone padding_10 box_sizing_border_box float_left">
+    <input class="padding_left_0 background_none border_top_width_0 border_bottom_width_2 border_right_width_0 border_left_width_0" type="text" placeholder="Name" name="name" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="width_50_percentage width_100_percentage_all_iphone padding_10 box_sizing_border_box float_left">
+    <input class="padding_left_0 background_none border_top_width_0 border_bottom_width_2 border_right_width_0 border_left_width_0" type="text" placeholder="Username" name="username" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="width_50_percentage width_100_percentage_all_iphone padding_10 box_sizing_border_box float_left">
+    <input class="padding_left_0 background_none border_top_width_0 border_bottom_width_2 border_right_width_0 border_left_width_0" type="email" placeholder="Email" name="email" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="width_50_percentage width_100_percentage_all_iphone padding_10 box_sizing_border_box float_left">
+    <input class="padding_left_0 background_none border_top_width_0 border_bottom_width_2 border_right_width_0 border_left_width_0" type="text" placeholder="Practice Name" name="practice" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="width_50_percentage width_100_percentage_all_iphone padding_10 box_sizing_border_box float_left">
+    <input class="padding_left_0 background_none border_top_width_0 border_bottom_width_2 border_right_width_0 border_left_width_0" type="password" placeholder="Password" name="password" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="width_50_percentage width_100_percentage_all_iphone padding_10 box_sizing_border_box float_left">
+    <input class="padding_left_0 background_none border_top_width_0 border_bottom_width_2 border_right_width_0 border_left_width_0" type="password" placeholder="Re-enter pass" name="password2" required>
+    </div>
+  </div>
+  <div class="width_100_percentage padding_10 box_sizing_border_box float_left">
+    <button type="submit" class="bg_white_hover color_green_hover border_2_solid_green transition_all_08_ease display_inline_block text_align_center box_sizing_border_box width_100_percentage color_white bg_green first_font padding_10_20 border_radius_3 cursor_pointer">SUBMIT</button>
+  </div>
+</form>

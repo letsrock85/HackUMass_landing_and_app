@@ -1,0 +1,8 @@
+{
+  "port": 3000,
+  "files": ["./build/*.*"],
+  "server": { "baseDir": "./build" },
+  "watchexps": [
+    "./build/**.js # npm run lite"
+  ]
+}

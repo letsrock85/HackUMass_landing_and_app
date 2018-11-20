@@ -1,0 +1,28 @@
+<div class="section height_50"></div>
+<div class="section">
+ <div class="container clearfix">
+  <div class="grid grid_4 ">
+    <div class="section height_1"></div>
+  </div>
+  <div class="grid grid_4">
+    <h2 class="page-header">Send us a message</h2>
+    <br>
+    <table class=“cooltable”>
+	{{#if errors}}
+          {{#each errors}}
+            <div class="alert_danger font_size_14 line_height_20 padding_left_10">{{msg}}</div>
+          {{/each}}
+    {{/if}}
+    {{#if success_msg}}
+            <div class="alert_success font_size_14 line_height_20 padding_left_10 color_green">{{success_msg}}</div>
+     {{/if}}
+	</table>
+
+    {{> mailform}}
+
+    <div class="grid grid_4 ">
+        <div class="section height_1"></div>
+    </div>
+  </div>
+
+</div></div>
